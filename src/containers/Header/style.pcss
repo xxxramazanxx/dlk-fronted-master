@@ -1,0 +1,86 @@
+@import "../../public/css/variables.pcss";
+
+
+.header {
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 35px;
+    box-sizing: border-box;
+    z-index: 99;
+    overflow-x: hidden;
+    
+
+    .logo {
+      background: transparent;
+
+      svg {
+        height: 36px;
+      }
+    }
+
+    .links {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+
+      a {
+        color: #fff;
+        opacity: 0.9;
+        font-family: var(--head);
+        font-weight: 400;
+        text-decoration: none;
+        margin: 0 15px;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 18px;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+        @apply(--transition);
+
+        &:hover {
+          border-color: #fff;
+          color: #fff;
+        }
+      }
+    }
+
+
+    .contact {
+      background: transparent;
+      display: flex;
+
+      .button {
+        height: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        //color: rgba(255, 255, 255, 0.9);
+        color: #fff;
+        background-color: transparent;
+        font-family: var(--head);
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 0 15px;
+        height: 40px;
+        line-height: 44px;
+        font-size: 18px;
+        display: block;
+        cursor: pointer;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+        @apply(--transition);
+        position: relative;
+        top: -2px;
+
+        &:hover {
+          border-color: #fff;
+          background-color: #fff;
+          color: #000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+@import "../../public/css/variables.pcss";
+
+.slide {
+  min-height: 740px;
+  height: 100vh;
+  background-color: #eee;
+  background-image: url('/img/bg.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 5;
+  }
+
+  .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+    video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    width: 1240px;
+    margin: auto;
+    z-index: 10;
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+    .wrapper {
+      color: #fff;
+      display: inline-block;
+      width: 100%;
+
+      .block {
+        display: flex;
+        align-items: center;
+
+        .item {
+          flex: 1;
+        }
+      }
+    }
+  }
+}
+
+.head-title {
+  h1 {
+    font-family: var(--head);
+    font-weight: normal;
+    font-size: 72px;
+    letter-spacing: 1px;
+    line-height: 72px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 15px;
+    font-family: var(--text);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+    line-height: 19px;
+    @apply(--font-smooth);
+  }
+}
+
+.description {
+  background: transparent;
+  @apply(--font-smooth);
+
+  a {
+    font-family: var(--head);
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 36px;
+    margin-top: 15px;
+
+     b {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      font-weight: normal;
+      @apply(--transition);
+
+      &:hover {
+        border-color: #fff;
+      }
+     }
+  }
+
+  span {
+    background: rgba(255, 0, 0, 0.5);
+    color: #fff;
+    padding: 3px 5px;
+    font-family: var(--text);
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 1px;
+  }
+
+  p {
+    font-family: var(--text);
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  .price {
+    font-family: var(--text);
+    font-size: 22px;
+
+    strong {
+      font-size: 42px;
+      font-weight: normal;
+    }
+
+    small {
+      display: block;
+      font-size: 15px;
+      color: rgba(255,255,255,.6);
+    }
+  }
+}

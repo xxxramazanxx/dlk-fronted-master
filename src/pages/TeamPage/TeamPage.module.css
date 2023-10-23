@@ -1,0 +1,45 @@
+body { 
+    font-family: 'Roboto', 'Arial';
+  }
+
+.team-wrapper {
+    padding-top: 50px;
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}
+.team-wrapper h1{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.team-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-item {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 510px;
+
+}
+.team-item img{
+    background-color: rgb(191, 196, 194);
+    width: 330px;
+    height: 430px;
+    margin-bottom: 15px;
+
+}
+.team-item span{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.team-item p{
+   color: rgb(138, 138, 138);
+}

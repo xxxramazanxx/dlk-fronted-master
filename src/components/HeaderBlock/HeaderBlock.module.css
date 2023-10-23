@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+  body, html {
+    overflow-x: hidden;
+  }
+
+
+.company-header {
+    width: 100%;
+    min-height: 710px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url(../../public/img/bg-contacts.jpg);
+    background-repeat: no-repeat;
+  
+  }
+  
+  .company-nav {
+    text-align: center;
+  }
+  
+  .company-title {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 55px;
+  }
+  
+  .company-navlist {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    gap: 30px;
+    text-align: center;
+  }
+  .company-navigation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .company-navitem {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  NavLink:hover {
+    color: red;
+    transition: all 0.2s ease-in;
+  }
+
+  .active {
+    color: red;
+  }
