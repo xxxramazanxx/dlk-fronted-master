@@ -6,6 +6,7 @@ import TeamPage from '../../pages/TeamPage/TeamPage';
 import VacancicesPage from '../../pages/VacanciesPage/VacancicesPage.js';
 import AboutUsPage from '../../pages/AboutUsPage/AboutUsPage';
 import Sertificates from '../../pages/Sertificates/Sertificates.js';
+import PassengerElevators from '../../pages/Productions/PassengerElevators/PassengerElevators.js';
 
 import s from './style.pcss';
 
@@ -27,6 +28,7 @@ export default class App extends PureComponent {
             <Route path="/contacts" component={ContactsPage} />
             <Route path="/services" component={ServicesPage} />
             <Route path="/sertificates" component={Sertificates} />
+            <Route path="/production" component={PassengerElevators} />
             <Route path="/" component={Home} />
           </Switch>
           <Footer />

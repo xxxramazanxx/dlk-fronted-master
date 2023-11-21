@@ -12,7 +12,9 @@ export default class Header extends PureComponent {
         <header styleName="header">
           <div styleName="menu">
             <div styleName="logo">
-              <Logo />
+              <a href='/'>
+                <Logo />
+              </a>
             </div>
             <div styleName="links">
               <NavLink to="/production">Продукция</NavLink>

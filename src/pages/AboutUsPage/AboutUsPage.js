@@ -3,6 +3,7 @@ import Header from '../../containers/Header';
 import HeaderBlock from '../../components/HeaderBlock/HeaderBlock';
 import HomeClients from '../../components/HomeClients';
 import Slider from 'react-slick';
+
 import s from './AboutUsPage.module.css';
 
 import Award from '../../public/img/icon/award.png';
@@ -16,8 +17,7 @@ import Slide5 from '../../public/img/slider/5.jpg';
 import Lift from '../../public/img/Lift.png';
 import image from '../../public/img/card.png';
 
-
-export default class ContactsPage extends PureComponent {
+export default class AboutUsPage extends PureComponent {
   render() {
     const settings = {
       dots: false,
@@ -28,8 +28,6 @@ export default class ContactsPage extends PureComponent {
       slidesToShow: 1,
       slidesToScroll: 1,
       initialSlide: 2,
-      // nextArrow: <SampleNextArrow />,
-      // prevArrow: <SamplePrevArrow />,
     };
     return (
       <div>

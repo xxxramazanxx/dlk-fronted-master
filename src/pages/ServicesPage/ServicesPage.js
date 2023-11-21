@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import Header from '../../containers/Header';
-import Footer from '../../containers/Footer';
 import HeaderBlock from '../../components/HeaderBlock/HeaderBlock';
 import image from '../../public/img/card.png';
 import s from './ServicesPage.module.css';
