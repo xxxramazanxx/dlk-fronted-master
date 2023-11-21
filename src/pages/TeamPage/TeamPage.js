@@ -68,8 +68,6 @@ export default class TeamPage extends PureComponent {
             })}
           </div>
         </section>
-
-        <Footer />
       </div>
     );
   }

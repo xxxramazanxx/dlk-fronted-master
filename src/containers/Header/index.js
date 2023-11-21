@@ -18,7 +18,7 @@ export default class Header extends PureComponent {
               <NavLink to="/production">Продукция</NavLink>
               <NavLink to="/objects">Объекты</NavLink>
               <NavLink to="/proizvoditely">Производители</NavLink>
-              <NavLink to="/company">Компания</NavLink>
+              <NavLink to="/about">Компания</NavLink>
               <NavLink to="/complect">Комплектующие</NavLink>
               <NavLink to="/construction">Конструкции</NavLink>
               <NavLink to="/contacts">Контакты</NavLink>

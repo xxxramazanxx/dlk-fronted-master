@@ -1,37 +1,286 @@
-body { 
+body,
+h1,
+a {
   font-family: 'Roboto', 'Arial';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.contacts-wrapper {
+/* .aboutus-wrapper {
   max-width: 1280px;
-  min-height: 400px;
+} */
+
+.aboutus-infobox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutus-slider {
+  background-color: #f5f5f5;
+}
+
+.aboutus-sertif {
+  display: flex;
+  flex-direction: column;
+  padding-left: 90px;
+}
+
+.aboutus-info h1 {
+  font-size: 23px;
+  margin-bottom: 43px;
+}
+
+.aboutus-info p {
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.aboutus-sertif p {
+  font-size: 15px;
+  margin-bottom: 45px;
+}
+.aboutus-sertif a {
+  font-size: 17px;
+  color: red;
+  text-decoration: underline;
+}
+
+.image-sertif {
+  width: 110px;
+  height: 120px;
+  margin-bottom: 25px;
+}
+
+.image-awards {
+  width: 45px;
+  height: 34px;
+  margin-bottom: 45px;
+}
+
+.image-sertif {
+  transition: 0.5s;
+  display: block;
+}
+.image-sertif:hover {
+  transform: scale(1.1);
+}
+
+.history-wrapper {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  max-width: 1280px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   flex-direction: column;
 }
 
-.contacts-wrapper h1 {
-  font-size: 36px;
-  margin-bottom: 50px;
+.history-box {
+  max-width: 750px;
 }
 
+.history-title {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
 
-.contacts-info {
+.history-span {
+  display: inline-block;
+  font-size: 17px;
+  color: red;
+  margin-bottom: 10px;
+}
+.history-p {
+  margin-bottom: 45px;
+}
+
+.services-wrapper {
+  background-image: url(../../public/img/bg-compan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 1080px;
+  padding-top: 140px;
+  padding-bottom: 90px;
+  padding-left: 320px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
+  color: white;
+}
+
+.services-box {
+  max-width: 1280px;
+}
+.services-info {
+  max-width: 800px;
+}
+
+.services-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.services-p {
+  font-size: 17px;
+  margin-bottom: 40px;
+  line-height: 27px;
+}
+
+.services-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.services1-wrapper {
+  background-image: url(../../public/img/bg-compan3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 1080px;
+  padding-top: 140px;
+  padding-bottom: 90px;
+  padding-left: 320px;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+}
+
+.constructor-wrapper {
+  padding-top: 200px;
+  padding-bottom: 90px;
+  max-width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.constructor-box {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.contacts-info span {
-    display: block;
-    margin-bottom: 10px;
+.constructor-info {
+  max-width: 740px;
+}
+.constructor-title {
+  font-size: 30px;
+  margin-bottom: 70px;
 }
 
-.email {
-    text-decoration: underline;
+.constructor-p {
+  font-size: 17px;
+  margin-bottom: 55px;
+}
+
+.constructor-link {
+  color: black;
+  cursor: pointer;
+}
+
+.constructor-image img {
+  transition: 0.5s;
+  display: block;
+}
+.constructor-image img:hover {
+  transform: scale(1.1);
+}
+
+
+.statistics-wrapper {
+  background-image: url(../../public/img/bg-compan2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  min-height: 1080px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.statistics-box {
+  max-width: 1280px;
+}
+
+.statistics-title {
+  font-size: 38px;
+  margin-bottom: 140px;
+}
+
+.statistics-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.statistic-item {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 220px;
+  width: 290px;
+  }
+
+  .item-title {
+    margin-bottom: 20px;
+    font-size: 21px;
+  }
+
+  .item-p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .item-link {
+    display: flex;
+    justify-content: end;
+  }
+  .item-link a{
+    color: white;
+    cursor: pointer;
+  }
+
+
+  .aboutus1-wrapper {
+    padding-top: 50px;
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .aboutus-delivery {
+    padding-bottom: 50px;
+  }
+  
+  .aboutaus-delivery-title {
+    font-size: 30px;
+    margin-bottom: 95px;
+  }
+  
+  .delivery-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delivery-info {
+    max-width: 430px;
+  }
+  
+  .delivery-info h4 {
     color: red;
-}
+    margin-bottom: 50px;
+  }
+  .delivery-info p {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }

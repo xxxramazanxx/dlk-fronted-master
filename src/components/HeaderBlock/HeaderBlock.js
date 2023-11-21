@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
-import { NavLink, Switch, Route } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import s from './HeaderBlock.module.css';
-import ServicesPage from '../../pages/ServicesPage/ServicesPage';
 
 export default class HeaderBlock extends PureComponent {
   render() {
@@ -11,13 +10,13 @@ export default class HeaderBlock extends PureComponent {
           <h1 className="company-title"> Наша Компания</h1>
           <div className="company-navigation">
             <div className="company-navlist">
-              <NavLink to="/company" className="company-navitem">
+              <NavLink to="/about" className="company-navitem">
                 О компании
               </NavLink>
               <NavLink to="/services" className="company-navitem">
                 Услуги
               </NavLink>
-              <NavLink to="/certificates" className="company-navitem">
+              <NavLink to="/sertificates" className="company-navitem">
                 Сертификаты
               </NavLink>
               <NavLink to="/team" className="company-navitem">
@@ -32,12 +31,6 @@ export default class HeaderBlock extends PureComponent {
             </div>
           </div>
         </div>
-
-        <Switch>
-          <Route path="/services">
-            <ServicesPage />
-          </Route>
-        </Switch>
       </section>
     );
   }

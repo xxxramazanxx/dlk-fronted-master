@@ -147,6 +147,7 @@ export default class Services extends PureComponent {
             </div>
           </section>
 
+
           <section className="clients">
             <HomeClients />
           </section>
@@ -172,7 +173,6 @@ export default class Services extends PureComponent {
             </div>
           </div>
         </section>
-        <Footer/>
       </div>
     );
   }

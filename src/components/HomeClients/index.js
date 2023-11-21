@@ -3,6 +3,8 @@ import Slider from 'react-slick'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
+
+
 const Wrapper = styled.div`
   background-color: #fff;
   padding: 80px 0;

@@ -40,7 +40,6 @@ export default class VacancicesPage extends PureComponent {
               </div>
             </div>
           </section>
-          <Footer />
         </div>
       </div>
     );

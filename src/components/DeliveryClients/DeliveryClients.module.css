@@ -1,0 +1,26 @@
+.aboutus-delivery {
+    padding-bottom: 50px;
+  }
+  
+  .aboutaus-delivery-title {
+    font-size: 30px;
+    margin-bottom: 95px;
+  }
+  
+  .delivery-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delivery-info {
+    max-width: 430px;
+  }
+  
+  .delivery-info h4 {
+    color: red;
+    margin-bottom: 50px;
+  }
+  .delivery-info p {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }

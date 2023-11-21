@@ -36,7 +36,6 @@ export default class ContactsPage extends PureComponent {
         <section className="yandex-card">
           <Objects />
         </section>
-        <Footer />
       </div>
     );
   }

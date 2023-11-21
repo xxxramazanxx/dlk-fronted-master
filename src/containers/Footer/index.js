@@ -34,9 +34,9 @@ export default class Footer extends PureComponent {
           </Company>
           <NavItem>
             <h4>Компания</h4>
-            <Link to='/'>О компании</Link>
+            <Link to='/about'>О компании</Link>
             <Link to='/'>Объекты на карте</Link>
-            <Link to='/'>Наши услуги</Link>
+            <Link to='/services'>Наши услуги</Link>
             <Link to='/'>Производители лифтов</Link>
             <Link to='/'>Собственное производство</Link>
             <Link to='/'>Конструктивные решения</Link>

@@ -1,0 +1,28 @@
+.sertification-wrapper {
+  padding-top: 110px;
+  max-width: 1280px;
+  min-height: 400px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lifts {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.sert-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
