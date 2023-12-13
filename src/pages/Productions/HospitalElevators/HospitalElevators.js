@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import s from './PassengerElevators.css';
+import s from './HospitalElevators.css';
 import Header from '../../../containers/Header';
 import HeaderBlockProduction from '../../../components/HeaderBlockProduction/HeaderBlockProduction';
 
@@ -20,7 +20,7 @@ import Task from '../../../public/img/ico/task.png';
 
 import Lift from '../../../public/img/lifts/1.png';
 
-export default class PassengerElevators extends PureComponent {
+export default class HospitalElevators extends PureComponent {
   render() {
     return (
       <div>
@@ -30,7 +30,7 @@ export default class PassengerElevators extends PureComponent {
         <section className="passenger-wrapper">
           <div className="passenger-box">
             <div className="passenger-info">
-              <h1>ПАССАЖИРСКИЕ ЛИФТЫ</h1>
+              <h1>БОЛЬНИЧНЫЕ ЛИФТЫ</h1>
               <p>
                 Компания «ДЛК» предлагает надежные пассажирские лифты по
                 выгодной цене от ведущих мировых брендов.

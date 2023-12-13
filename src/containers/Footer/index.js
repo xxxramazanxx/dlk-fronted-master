@@ -76,7 +76,7 @@ export default class Footer extends PureComponent {
         </FirstFooter>
         <LastFooter>
           <p>
-            © 2018, ООО «Дагестанская лифтовая компания»
+            © 2023, ООО «Дагестанская лифтовая компания»
             <span>Официальный сайт</span>
           </p>
           <Febox>

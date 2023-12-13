@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import s from './PassengerElevators.css';
+import s from './CottegeElevatiors.css';
 import Header from '../../../containers/Header';
 import HeaderBlockProduction from '../../../components/HeaderBlockProduction/HeaderBlockProduction';
 
@@ -20,7 +20,7 @@ import Task from '../../../public/img/ico/task.png';
 
 import Lift from '../../../public/img/lifts/1.png';
 
-export default class PassengerElevators extends PureComponent {
+export default class CottegeElevatiors extends PureComponent {
   render() {
     return (
       <div>
@@ -30,15 +30,15 @@ export default class PassengerElevators extends PureComponent {
         <section className="passenger-wrapper">
           <div className="passenger-box">
             <div className="passenger-info">
-              <h1>ПАССАЖИРСКИЕ ЛИФТЫ</h1>
+              <h1>КОТТЕДЖНЫЕ ЛИФТЫ</h1>
               <p>
-                Компания «ДЛК» предлагает надежные пассажирские лифты по
+                Компания «ДЛК» предлагает надежные коттеджные лифты по
                 выгодной цене от ведущих мировых брендов.
               </p>
               <p>
                 Также мы оказываем высококачественные услуги по проектированию,
                 монтажу и техническому обслуживанию такого оборудования, как
-                пассажирские лифты. «ДЛК» — эксперт №1 на рынке подъемного
+                коттеджные лифты. «ДЛК» — эксперт №1 на рынке подъемного
                 оборудования. Мы отличаемся ответственным подходом к работе,
                 нацеленностью на построение долгосрочных отношений с каждым
                 клиентом.
@@ -147,7 +147,7 @@ export default class PassengerElevators extends PureComponent {
               </div>
               <div className="lifts-info">
                 <div className="info-header">
-                  <h2 className="info-title">ПАССАЖИРСКИЙ ЛИФТ OTIS 1000R</h2>
+                  <h2 className="info-title">КОТТЕДЖНЫЙ ЛИФТ OTIS 1000R</h2>
                   <span className="info-text">
                     Качественный могилевский лифт вместо импортного аналога по
                     супер-цене!
@@ -171,7 +171,7 @@ export default class PassengerElevators extends PureComponent {
         </section>
 
         <section className="rate-wrapper">
-          <h2>Производители и стоимость пассажирских лифтов</h2>
+          <h2>Производители и стоимость коттеджных лифтов</h2>
           <div className="rate-box">
             <div className="rate-item">
               <div className="rate-header">
@@ -287,37 +287,6 @@ export default class PassengerElevators extends PureComponent {
               </div>
             </div>
           </div>
-        </section>
-
-        <section className="order-wrapper">
-          <h3>Заказ и доставка</h3>
-          <div className="order-box">
-            <div className="order-item">
-              <img src={Medal} alt="img" />
-              <p>
-                Диллер <br /> лучших производителей{' '}
-              </p>
-              <span>
-                ДЛК- официальный представитель российских и зарубежных лифтовых
-                брендов
-              </span>
-            </div>
-            <div className="order-item">
-              <img src={Task} alt="img" />
-              <p>
-                Решаем
-                <br />
-                самые сложные задачи
-              </p>
-              <span>
-                Найдем лучшее конструктивное решение под габариты вашей вахты
-              </span>
-            </div>
-          </div>
-          <button className="order-btn">Оставить заявку</button>
-          <p>
-            <span className="tel-span">Или звоните:</span>8 928 578-88-99
-          </p>
         </section>
       </div>
     );

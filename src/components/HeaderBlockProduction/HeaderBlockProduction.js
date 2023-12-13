@@ -13,25 +13,25 @@ export default class HeaderBlockProduction extends PureComponent {
               <NavLink to="/production" className="production-navitem">
                 Пассажирские лифты
               </NavLink>
-              <NavLink to="/1" className="production-navitem">
+              <NavLink to="/freightelevators" className="production-navitem">
                 Грузовые лифты
               </NavLink>
-              <NavLink to="/2" className="production-navitem">
+              <NavLink to="/cottegeelevatiors" className="production-navitem">
                 Коттеджные лифты
               </NavLink>
-              <NavLink to="/3" className="production-navitem">
+              <NavLink to="/smallfreightelevators" className="production-navitem">
                 Малые грузовые лифты
               </NavLink>
-              <NavLink to="/4" className="production-navitem">
+              <NavLink to="/panoramicelevators" className="production-navitem">
                 Панорамные лифты
               </NavLink>
-              <NavLink to="/5" className="production-navitem">
+              <NavLink to="/hospitalelevators" className="production-navitem">
                 Больничные лифты
               </NavLink>
-              <NavLink to="/6" className="production-navitem">
+              <NavLink to="/excalators" className="production-navitem">
                 Экскалаторы
               </NavLink>
-              <NavLink to="/7" className="production-navitem">
+              <NavLink to="/travelator" className="production-navitem">
                 Травалаторы
               </NavLink>
             </nav>
