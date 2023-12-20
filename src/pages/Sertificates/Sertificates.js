@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import Header from '../../containers/Header';
 import HeaderBlock from '../../components/HeaderBlock/HeaderBlock';
-import s from './Sertificates.css';
+import s from './Sertificates.module.css';
 
 import Sertificat from '../../public/img/sertificates/sertificat.jpg';
 

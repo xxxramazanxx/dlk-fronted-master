@@ -1,0 +1,46 @@
+.winches-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  max-width: 800px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.winches-wrapper h1 {
+  font-size: 30px;
+  margin-bottom: 100px;
+  font-weight: normal;
+}
+
+.winches-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.winches-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 230px;
+}
+.winches-item:last-child {
+  margin-bottom: 0px;
+}
+
+.winches-item h2 {
+  font-size: 38px;
+  line-height: 28px;
+  font-weight: normal;
+  text-align: start;
+  margin-bottom: 80px;
+}
+
+.winches-item img {
+  width: 80%;
+  margin-bottom: 90px;
+}
+.winches-item p {
+  font-weight: 17px;
+  margin-bottom: 45px;
+}

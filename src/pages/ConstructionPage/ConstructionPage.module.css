@@ -1,0 +1,41 @@
+.construction-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  max-width: 1280px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.construction-wrapper h1 {
+  font-size: 30px;
+  margin-bottom: 100px;
+  font-weight: normal;
+}
+
+.lifts-box {
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.lift-item {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lift-item img {
+  margin-bottom: 45px;
+}
+
+.lift-text {
+  max-width: 250px;
+}
+
+.lift-text span {
+  font-size: 15px;
+  line-height: 20px;
+}

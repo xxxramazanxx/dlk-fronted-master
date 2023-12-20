@@ -14,6 +14,8 @@ import PanoramicElevators from '../../pages/Productions/PanoramicElevators/Panor
 import HospitalElevators from '../../pages/Productions/HospitalElevators/HospitalElevators.js';
 import Excalators from '../../pages/Productions/Excalators/Excalators.js';
 import Travelator from '../../pages/Productions/Travelator/Travelator.js';
+import ConstructionPage from '../../pages/ConstructionPage/ConstructionPage.js';
+import WinchesPage from '../../pages/ConstructionPage/WinchesPage/WinchesPage.js';
 
 import s from './style.pcss';
 
@@ -38,11 +40,16 @@ export default class App extends PureComponent {
             <Route path="/production" component={PassengerElevators} />
             <Route path="/freightelevators" component={FreightElevators} />
             <Route path="/cottegeelevatiors" component={CottegeElevatiors} />
-            <Route path="/smallfreightelevators" component={SmallFreightElevators} />
+            <Route
+              path="/smallfreightelevators"
+              component={SmallFreightElevators}
+            />
             <Route path="/panoramicelevators" component={PanoramicElevators} />
             <Route path="/hospitalelevators" component={HospitalElevators} />
             <Route path="/excalators" component={Excalators} />
             <Route path="/travelator" component={Travelator} />
+            <Route path="/winches" component={WinchesPage} />
+            <Route path="/construction" component={ConstructionPage} />
             <Route path="/" component={Home} />
           </Switch>
           <Footer />
